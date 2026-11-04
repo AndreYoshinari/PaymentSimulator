@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">PaymentSimulator</string>
+    <string name="home_placeholder">Pagamentos fictícios. Nenhuma transação real é processada.</string>
+    <string name="action_back">Voltar</string>
+    <string name="loading">Carregando</string>
+
+    <string name="nav_home">Início</string>
+    <string name="nav_cart">Carrinho</string>
+    <string name="nav_transactions">Transações</string>
+
+    <string name="home_title">Início</string>
+    <string name="home_card_title">Simulador</string>
+    <string name="home_card_body">Percorra o fluxo fictício até o comprovante. Nenhuma cobrança real é feita.</string>
+    <string name="home_open_cart">Ver carrinho</string>
+    <string name="home_open_transactions">Ver transações</string>
+
+    <string name="cart_title">Carrinho</string>
+    <string name="cart_empty_title">Carrinho vazio</string>
+    <string name="cart_empty_body">Os itens do pedido aparecem aqui quando o carrinho for ligado a esta tela.</string>
+    <string name="cart_checkout">Ir para o checkout</string>
+
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_summary_title">Resumo</string>
+    <string name="checkout_summary_body">Confira os itens do pedido fictício antes de continuar.</string>
+    <string name="checkout_quantity">Quantidade</string>
+    <string name="checkout_confirm">Confirmar pedido</string>
+    <string name="checkout_items_label">Itens</string>
+    <string name="checkout_amount_label">Valor</string>
+    <string name="checkout_placeholder_value">—</string>
+    <string name="checkout_note_label">Observação</string>
+    <string name="checkout_note_support">Texto apenas visual. Não altera o pagamento.</string>
+    <string name="checkout_continue">Escolher forma de pagamento</string>
+
+    <string name="payment_method_title">Forma de pagamento</string>
+    <string name="payment_method_body">Escolha uma opção fictícia. Número de cartão e CVV não são pedidos nem gravados.</string>
+    <string name="payment_method_pix_key_label">Chave PIX fictícia</string>
+    <string name="payment_method_pix_key">simulado@paymentsimulator.invalid</string>
+    <string name="payment_method_receiver_label">Recebedor</string>
+    <string name="payment_method_receiver">PaymentSimulator</string>
+    <string name="payment_method_card_holder_label">Portador fictício</string>
+    <string name="payment_method_card_holder">Cliente fictício</string>
+    <string name="payment_method_card_number_label">Número fictício</string>
+    <string name="payment_method_card_number">•••• •••• •••• 0000</string>
+    <string name="payment_method_card_expiry_label">Validade fictícia</string>
+    <string name="payment_method_card_expiry">12/30</string>
+    <string name="payment_method_no_cvv">CVV não é pedido nem armazenado.</string>
+    <string name="payment_method_scenario">Cenário da simulação</string>
+    <string name="payment_method_confirm">Iniciar processamento</string>
+    <string name="payment_method_choose">Escolha PIX ou cartão fictício para continuar.</string>
+    <string name="scenario_approved">Aprovado</string>
+    <string name="scenario_declined">Recusado</string>
+    <string name="scenario_timeout">Tempo esgotado</string>
+    <string name="scenario_unavailable">API indisponível</string>
+    <string name="scenario_duplicate">Resposta duplicada</string>
+    <string name="scenario_unknown_then_approved">Desconhecido, depois aprovado</string>
+    <string name="processing_payment_id">Identificador: %1$s</string>
+    <string name="payment_method_pix">PIX</string>
+    <string name="payment_method_pix_support">Confirmação fictícia, sem chave real.</string>
+    <string name="payment_method_card">Cartão de crédito</string>
+    <string name="payment_method_card_support">Nenhum dado de cartão é digitado.</string>
+    <string name="payment_method_continue">Continuar</string>
+
+    <string name="processing_title">Processando</string>
+    <string name="processing_body">O pagamento está sendo processado.</string>
+    <string name="processing_not_found">Não encontramos esse pagamento.</string>
+    <string name="processing_see_result">Ver resultado</string>
+
+    <string name="payment_result_title">Resultado</string>
+    <string name="payment_result_approved_title">Pagamento aprovado</string>
+    <string name="payment_result_approved_body">A simulação foi aprovada. Nenhuma cobrança real foi feita.</string>
+    <string name="payment_result_declined_title">Pagamento recusado</string>
+    <string name="payment_result_declined_body">A simulação foi recusada. Nenhuma cobrança real foi feita.</string>
+    <string name="payment_result_unknown_title">Status desconhecido</string>
+    <string name="payment_result_unknown_body">O tempo esgotou e o resultado ainda é desconhecido. Isso não é uma recusa.</string>
+    <string name="payment_result_unavailable_title">Falha de comunicação</string>
+    <string name="payment_result_unavailable_body">Não foi possível consultar a simulação. Nenhuma nova cobrança foi feita.</string>
+    <string name="payment_result_failed_title">Pagamento falhou</string>
+    <string name="payment_result_failed_body">A simulação falhou. Isso não é uma recusa.</string>
+    <string name="payment_result_check_again">Consultar status novamente</string>
+    <string name="payment_result_not_found">Não encontramos esse pagamento.</string>
+    <string name="payment_result_receipt">Ver comprovante</string>
+    <string name="payment_result_home">Voltar ao início</string>
+
+    <string name="receipt_title">Comprovante</string>
+    <string name="receipt_card_title">Dados do comprovante</string>
+    <string name="receipt_body">Dados gravados apenas nesta simulação.</string>
+    <string name="receipt_id">Identificador</string>
+    <string name="receipt_amount">Valor</string>
+    <string name="receipt_method">Método</string>
+    <string name="receipt_status">Status</string>
+    <string name="receipt_date">Data e hora</string>
+    <string name="receipt_confirmation_label">Confirmação fictícia</string>
+    <string name="receipt_confirmation_body">Este comprovante não representa uma cobrança real.</string>
+    <string name="receipt_not_found">Não encontramos esse comprovante.</string>
+    <string name="receipt_load_error">Não foi possível abrir o comprovante.</string>
+    <string name="receipt_transactions">Ver transações</string>
+    <string name="receipt_home">Voltar ao início</string>
+
+    <string name="transactions_title">Transações</string>
+    <string name="transactions_empty_title">Sem transações</string>
+    <string name="transactions_empty_body">Os pagamentos fictícios aparecem aqui depois da simulação.</string>
+    <string name="transactions_filter_all">Todos</string>
+    <string name="transactions_filter_empty">Nenhum pagamento com esse status.</string>
+    <string name="transactions_select">Selecione uma transação para ver os detalhes.</string>
+    <string name="transactions_details">Detalhes da transação</string>
+    <string name="transactions_open_receipt">Ver comprovante</string>
+    <string name="transactions_load_error">Não foi possível carregar o histórico.</string>
+    <string name="transactions_open_details">Ver detalhes de %1$s</string>
+
+    <string name="status_pending">Pendente</string>
+    <string name="status_processing">Processando</string>
+    <string name="status_approved">Aprovado</string>
+    <string name="status_declined">Recusado</string>
+    <string name="status_failed">Falhou</string>
+    <string name="status_unknown">Desconhecido</string>
+
+    <string name="home_quantity_in_cart">No carrinho: %1$d</string>
+    <string name="home_add">Adicionar</string>
+    <string name="home_add_description">Adicionar %1$s ao carrinho</string>
+    <string name="home_empty_catalog">Nenhum produto fictício disponível.</string>
+    <string name="home_retry">Tentar de novo</string>
+    <string name="home_load_error">Não foi possível carregar os produtos.</string>
+
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_increase">Aumentar quantidade de %1$s</string>
+    <string name="cart_decrease">Diminuir quantidade de %1$s</string>
+    <string name="cart_remove">Remover %1$s</string>
+    <string name="cart_quantity">Quantidade de %1$s: %2$d</string>
+    <string name="cart_checkout_blocked">Adicione itens para avançar.</string>
+    <string name="cart_load_error">Não foi possível mostrar o carrinho.</string>
+
+    <string name="error_invalid_quantity">Quantidade inválida.</string>
+    <string name="error_product_not_found">Produto não encontrado.</string>
+    <string name="error_product_not_in_cart">Esse produto não está no carrinho.</string>
+    <string name="error_empty_cart">O carrinho está vazio.</string>
+    <string name="error_non_positive_amount">O valor do pedido precisa ser maior que zero.</string>
+    <string name="error_cart_update">Não foi possível atualizar o carrinho.</string>
+
+    <plurals name="cart_item_count">
+        <item quantity="one">%1$d item no carrinho</item>
+        <item quantity="other">%1$d itens no carrinho</item>
+    </plurals>
+</resources>
